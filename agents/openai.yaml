@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 科學探究寫作與 GitHub 部署"
+  short_description: "以生活敘事完成查證、雙檔輸出與 GitHub Pages 部署"
+  default_prompt: "使用 $ai-science-inquiry-writer，從生活故事寫出有來源的 AI 科學探究文章，驗證 TXT 與 HTML 後部署到 GitHub Pages。"
