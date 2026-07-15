@@ -1,30 +1,30 @@
 ---
 name: ai-science-inquiry-writer
-description: Research, write, validate, and publish source-backed Traditional Chinese AI-and-science inquiry articles. Use for 2,000–3,000-character educator-facing articles, teaching features, inquiry stories, science-fair narratives, biodiversity or experiment writing that should begin with lively everyday life, introduce AI gradually, preserve scientific evidence and human responsibility, produce matching UTF-8 TXT and standalone HTML, deploy the HTML to GitHub Pages, and return a verified public URL.
+description: Research, write, validate, and publish source-backed Traditional Chinese articles connecting AI literacy with science inquiry, classroom practice, science fairs, biodiversity, environmental education, or experiments. Use for 2,000–3,000-character educator-facing articles that should clarify evidence and uncertainty, challenge readers' assumptions, inspire feasible teaching action, produce matching UTF-8 TXT and standalone HTML, deploy the HTML to GitHub Pages, and return a verified public URL.
 ---
 
-# AI 科學探究文章：從生活敘事到 GitHub Pages
+# AI 科學探究文章：從研究寫作到 GitHub Pages
 
-將 AI 定位為觀察、整理、分析與提出候選解釋的助手；讓學生負責現場資料、查證、推理、限制與科學結論。預設使用臺灣繁體中文與臺灣教育情境。
+將 AI 定位為觀察、整理、分析與提出候選解釋的助手；讓學生負責現場資料、來源查證、科學推理、限制與結論。預設使用臺灣繁體中文與臺灣教育情境。
 
 ## 必讀參考
 
 開始撰寫前完整讀取：
 
-- [生活敘事風格](references/narrative-style.md)：控制開場、節奏、文氣、AI 登場時機與結尾餘韻。
-- [編輯與查證標準](references/editorial-standard.md)：控制來源品質、科學論證與禁止模式。
+- [編輯與查證標準](references/editorial-standard.md)：控制來源品質、科學論證、教學敘事與禁止模式。
+- [讀者啟思與教學行動](references/reader-insight-and-teaching-action.md)：讓文章改變讀者看問題的方式，並形成可實踐、可觀察的教學下一步。
 
 開始部署前完整讀取 [GitHub Pages 部署](references/github-deployment.md)。
 
 ## 1. 確認任務
 
-擷取主題、讀者、篇幅、語氣、科學概念、AI 用途、延伸情境與指定輸出位置。使用者規格足夠時直接執行，不重複提問。
+擷取主題、讀者、篇幅、語氣、科學概念、AI 用途、探究流程、延伸情境與指定輸出位置。使用者規格足夠時直接執行，不重複提問。
 
 未指定時採用：
 
 - 2,000–3,000 個中文字，不含資料來源。
 - 適合國小高年級至國中教師公開閱讀。
-- 溫暖、生活化、帶畫面與輕巧幽默，不寫成論文或教案清單。
+- 清楚、連貫、具思考深度且容易閱讀；不刻意追求生活化、幽默或學術腔。
 - 固定產生 TXT、HTML、GitHub Pages 公開頁面與 Codex 一鍵複製全文。
 
 ## 2. 研究與查證
@@ -38,47 +38,57 @@ description: Research, write, validate, and publish source-backed Traditional Ch
 
 核對每筆來源的標題、作者或發布單位、日期與實際網址。找不到指定來源時改用可驗證替代來源並說明，不得虛構。
 
-## 3. 建立探究故事線
+## 3. 建構探究核心
 
 先形成一句核心主張：AI 提供候選答案或資料整理，學生以觀察、查證、比較與解釋形成暫時性科學結論。
 
-再把主題轉成一條自然敘事線：
+依主題組織事件鏈：
 
-1. 從便當、飲水、書包、運動、天氣、校園角落或家庭小插曲等真實生活現象開場。
-2. 讓人物先猜測、爭論或動手嘗試；不要讓 AI 在第一段搶答。
-3. 讓第一次嘗試出現可理解的小混亂，從錯誤中長出研究問題。
-4. 在學生真的需要整理、比較或找反例時，讓 AI 自然登場。
-5. 將 AI 輸出視為候選解釋；安排一次過度肯定、忽略情境或概念混淆，轉化為查證契機。
-6. 描寫學生重新拍攝、補測、控制變因、查來源、保留異常值或修正假設。
-7. 收束於有範圍與限制的暫時性結論，並留下下一輪尚未完成的小問題。
+1. 呈現一個具體的課堂、校園、實驗或戶外觀察現象。
+2. 提出可研究的問題或一組彼此衝突的解釋。
+3. 將 AI 輸出視為假設、分類候選或分析建議，不視為結論。
+4. 蒐集現場資料與可信資料，控制必要變因並保留原始紀錄。
+5. 比較支持與反對證據，辨識 AI 的錯誤、偏差或不確定性。
+6. 修正判斷，提出有適用範圍與限制的暫時性結論。
+7. 從探究結果提出一個能改變教學決策的新觀點與可行下一步。
 
-依主題調整，不必機械套用所有節點。
+依主題調整，不強行套用所有步驟。AI 可在問題一開始或探究途中出現，以科學與教學邏輯為準，不為敘事效果刻意延後。
 
 ## 4. 撰寫全文
 
-保持文氣一氣呵成。以一個反覆出現的物件、聲音、疑問或版本號串起全文；用完整段落與少量有意義的小標題推進，不把正文拆成密集條列。
+以具體場景或問題開頭，讓讀者先看見值得探究的矛盾。正文自然推進：
 
-寫入 2–4 個能推動證據思考的教師提問。穿插具體動作、對話與感官細節，但不虛構研究數據。理論與政策只在能解釋故事時短暫出現，先用白話說清楚，再補名稱；避免連續堆疊學者、框架與機構。
+- 現象與衝突：AI 快速回答，但答案可能不一致、缺少來源或超出證據。
+- 探究過程：描述學生實際觀察、拍攝、測量、查證與比較什麼。
+- 科學概念：解釋分類、變因、證據、模型、相關與因果等必要概念。
+- AI 素養：說明幻覺、資料偏差、適用限制、信心與不確定性。
+- 教師引導：以提問推動證據思考，不急著公布標準答案。
+- 讀者啟思：指出案例挑戰了哪一個常見教學假設，還有哪些替代看法。
+- 教學行動：提出一個小而可行的改變，以及實施後應觀察的學生證據。
+- 收束：回到「AI 提供可能性，學生用證據形成結論」，並留下值得延伸的問題。
+
+使用有意義的小標題與完整段落。不要把正文寫成教案清單；需要記錄架構、比較欄位或操作步驟時才使用短表格或精簡條列。
 
 明確區分責任：
 
-- AI 可整理資料、產生候選辨識、繪圖、提示缺漏、比較版本、提出反方問題與後續問題。
+- AI 可整理資料、產生候選辨識、繪圖、提示缺漏、發現可能趨勢、提出反方與後續問題。
 - 學生負責現場觀察、拍照或測量、原始資料、來源查證、合理性判斷、原因解釋、限制與下一步。
-- 教師示範與搭鷹架，再逐步把決定權移交給學生。
+- 教師設計問題、示範查證與提供鷹架，再逐步把判斷責任移交給學生。
 
 不得暗示 AI 能證明因果、取代專家鑑定、代替實驗或為科學結論負責。不要把同時發生或統計相關寫成單一因果。
 
-## 5. 編輯檢查
+## 5. 啟思與行動檢查
 
 逐項確認：
 
-- 開頭先有生活事件，AI 稍後才因需求出現。
-- 故事中的錯誤確實引發補測、查證或改版，不只被當作笑點。
-- 正文有科學問題、證據來源、比較與推理，不只是工具介紹。
-- 全文口吻自然、段落銜接順暢，刪除「首先、其次、綜上所述」式報告腔。
-- 結尾呼應開場意象，留下餘韻或下一步，不喊口號、不重複摘要。
-- 具體事實與來源相符，文末列出 5–10 筆來源及查閱日期。
-- 涉及有毒植物、野外採集、過敏、動物干擾或實驗風險時加入適齡安全提醒。
+- 文章提出的矛盾足以讓讀者重新檢視一個既有假設，而不只是增加一項知識。
+- 至少呈現一種替代解釋、限制或尚未解決的問題。
+- 教學建議能在真實課堂中小規模嘗試，不要求教師一次重做整套課程。
+- 每個建議都說明要觀察什麼學生行為、作品或資料，避免只寫「提升素養」。
+- 行動由案例證據自然推導，不以焦慮、科技崇拜或道德壓力說服讀者。
+- 結尾具有啟發性，能讓讀者思考自己的課堂下一步，但不喊口號、不說教。
+
+同時確認全文符合指定篇幅、來源與科學準確性；AI 錯誤被轉化為探究問題，而非只被描述成工具缺陷。涉及有毒植物、野外採集、過敏、動物干擾或實驗風險時加入適齡安全提醒。
 
 ## 6. 產生 TXT 與 HTML
 
